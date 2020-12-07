@@ -17,7 +17,7 @@ struct InitialContentView: View {
             VStack(alignment: .center, spacing: 16, content: {
                 TextField("Enter your username", text: $username)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                NavigationLink("Log In", destination: SecondContentView(), isActive: $secondViewShowing)
+                NavigationLink("Log In", destination: SecondContentView(username: username, secondViewShowing: $secondViewShowing), isActive: $secondViewShowing)
                     .navigationBarTitle("Log In", displayMode: .inline)
             })
             .padding()
