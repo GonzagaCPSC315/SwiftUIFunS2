@@ -17,6 +17,7 @@
 		4574E340257EC75A003080A9 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574E33C257EC75A003080A9 /* Dog.swift */; };
 		4574E341257EC75A003080A9 /* ButtonGridContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574E33D257EC75A003080A9 /* ButtonGridContentView.swift */; };
 		4574E342257EC75A003080A9 /* DogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574E33E257EC75A003080A9 /* DogDetailView.swift */; };
+		4574E34B257FF123003080A9 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574E34A257FF123003080A9 /* NavigationBarModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4574E33C257EC75A003080A9 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		4574E33D257EC75A003080A9 /* ButtonGridContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonGridContentView.swift; sourceTree = "<group>"; };
 		4574E33E257EC75A003080A9 /* DogDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogDetailView.swift; sourceTree = "<group>"; };
+		4574E34A257FF123003080A9 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				4574E33C257EC75A003080A9 /* Dog.swift */,
 				4574E33E257EC75A003080A9 /* DogDetailView.swift */,
 				4574E33B257EC75A003080A9 /* DogListView.swift */,
+				4574E34A257FF123003080A9 /* NavigationBarModifier.swift */,
 			);
 			path = SwiftUIFunS2;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			files = (
 				4574E30D257EB7E4003080A9 /* SecondContentView.swift in Sources */,
 				45649AEB25757C8D00F119D5 /* ContentView.swift in Sources */,
+				4574E34B257FF123003080A9 /* NavigationBarModifier.swift in Sources */,
 				4574E340257EC75A003080A9 /* Dog.swift in Sources */,
 				4574E341257EC75A003080A9 /* ButtonGridContentView.swift in Sources */,
 				4574E30A257EB7D6003080A9 /* InitialContentView.swift in Sources */,
